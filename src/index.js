@@ -3,11 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SumarNumeros from './components/SumarNumeros';
+import SaludoPadre from './components/SaludoPadre';
+import Matematicas from './components/Matematicas';
+import PadreMatematicas from './components/PadreMatematicas';
+import Contador from './components/Contador';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Contador/>
+    {/*
+    <PadreMatematicas/>
+    <SaludoPadre/>
+    <SumarNumeros num1="7" num2="9"/>
+    <SumarNumeros num1="777" num2="99"/>
+    */}
   </React.StrictMode>
 );
 
